@@ -1,0 +1,42 @@
+# 12_notes
+------------------------------------
+***
+## copies one file to another:
+
+src = File.open("src.txt")
+dest = File.open("dest.txt", "w")
+dest.puts "The contents of src.txt:"
+IO.copy_stream(src, dest)
+
+[http://stackoverflow.com/questions/5545068/what-are-all-the-common-ways-to-read-a-file-in-ruby]
+---------------------------------
+http://stackoverflow.com/questions/8384869/how-can-i-copy-the-contents-of-one-file-to-another-using-rubys-file-methods
+---------------------------------
+csv
+http://www.sitepoint.com/guide-ruby-csv-library-part/
+
+http://ruby-doc.org/core-1.8.7/IO.html#method-i-sysseek
+
+If the mode is given as a String, it must be one of the values listed in the following table.
+
+Mode |  Meaning
+-----+--------------------------------------------------------
+"r"  |  Read-only, starts at beginning of file  (default mode).
+-----+--------------------------------------------------------
+"r+" |  Read-write, starts at beginning of file.
+-----+--------------------------------------------------------
+"w"  |  Write-only, truncates existing file 
+     |  to zero length or creates a new file for writing.
+-----+--------------------------------------------------------
+"w+" |  Read-write, truncates existing file to zero length
+     |  or creates a new file for reading and writing.
+-----+--------------------------------------------------------
+"a"  |  Write-only, starts at end of file if file exists,
+     |  otherwise creates a new file for writing.
+-----+--------------------------------------------------------
+"a+" |  Read-write, starts at end of file if file exists,
+     |  otherwise creates a new file for reading and 
+     |  writing.
+-----+--------------------------------------------------------
+ "b" |  (DOS/Windows only) Binary file mode (may appear with 
+     |  any of the key letters listed above).
