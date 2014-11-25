@@ -1,16 +1,6 @@
-Google,A description goes here,A new topic from google goes here,etc,etc
-Definitions,A Useful Article Goes Here,An important message goes here
-Attendees,Jen,Ashok,Kobi
-commandline = ["", "", ""]
-
-notes = ["tight feedback loops", "using a backtick \` in a program means Run this in the commandline."]
-
-attendees = ["JB", "Luisa", "Ben", "Jen", "Pat", "Amitai", "Mark"]
-
-testing = ["example is the same as it", "$rspec --tag=wip"]
-
-method = ["zip", "extract", "map"]
-
-gems = ["rgit -gem for working with git"]
-
-git = ["$git --work-tree", "git --git-dir"]
+Google, A description goes here, A new topic from google goes here, etc, etc,
+Definitions, A Useful Article Goes Here, An important message goes here,
+Attendees, Jen, Ashok, Kobi,
+commandline, Ctrl A, Ctrl E, Ctrl U, Ctrl R,
+note, tight feedback loops, using a backtick \` in a program means Run this in the commandline,
+attendees, JB, Luisa, Ben, Jen, Pat, Amitai, Mark
