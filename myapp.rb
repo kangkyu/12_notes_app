@@ -1,11 +1,16 @@
 require 'yaml'
 
-#google2 = YAML::load("config.yml")
+readme = YAML::load(File.open('config.yml'))
+
+google = readme['google']
+definition = readme['definition']
 
 
-readme = YAML::load( File.open( 'config.yml' ) )
+File.open('google.txt', 'w') do |f|
+  f.write(google)
+end
 
-File.open("google.txt", "w+")
-
-File.write('google.txt', readme)
+File.open('definition.txt', 'w') do |f|
+  f.write(definition)
+end
 
