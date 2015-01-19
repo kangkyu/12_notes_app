@@ -1,5 +1,7 @@
-google: ['Jen Diamond','Lars Lehtonen','Pivotal Labs','Thanksgiving']
-definition:
+attendee:
+todo:
+search_term: ['minitest','vim','','Thanksgiving']
+glossary:
  - wip - work in progress
  - grep - used in the commandline to search for something
  - vim - an editor

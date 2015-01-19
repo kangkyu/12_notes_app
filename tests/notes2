@@ -1,7 +1,0 @@
-require 'csv'
-
-notes = CSV.read('text.csv')
-
-CSV.parse(File.read('text.csv')) do |row|
-  puts row.inspect.split
-end
