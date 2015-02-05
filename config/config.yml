@@ -1,11 +1,13 @@
 attendee:
 todo:
-search_term: ['minitest','vim','','Thanksgiving']
-glossary:
- - wip - work in progress
- - grep - used in the commandline to search for something
- - vim - an editor
- - rails - a web framework
- - repo - short for repository, a place where your project is stored. There are local repositories on your personal machine and remote repositories stored on Github. You use git locally and Github remotely to create a repository and save versions of your project. This is called version control.
- - git - local version control program that you have to install on your local machine to use.
- - Github - remote version control in the cloud that stores your projects for you. You can sign up for a free account.
+search_term: ['skylight.io','vim','flask python']
+glossary: ['wip- work in progress', 'grep- used in the commandline to search
+for something in your project', 'vim - an awesome text editor']
+others:
+  - wip - work in progress
+  - grep - used in the commandline to search for something
+  - vim - an editor
+  - rails - a web framework
+  - repo - short for repository, a place where your project is stored. There are local repositories on your personal machine and remote repositories stored on Github. You use git locally and Github remotely to create a repository and save versions of your project. This is called version control.
+  - git - local version control program that you have to install on your local machine to use.
+  - Github - remote version control in the cloud that stores your projects for you. You can sign up for a free account.

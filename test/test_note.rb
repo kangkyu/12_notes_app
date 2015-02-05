@@ -1,4 +1,5 @@
 require "minitest/autorun"
+require './config'
 
 class NoteApp < Minitest::Test
 

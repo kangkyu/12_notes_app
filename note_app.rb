@@ -27,9 +27,11 @@ class NoteApp
 
   def add_glossary_term
     glossary_terms = @readme['glossary_term']
-    File.open('output/gloassary.txt', 'a') do |f|
+    File.open('output/glossary.txt', 'a') do |f|
       f.puts(glossary_terms)
     end
   end
-
 end
+
+note = NoteApp.new
+
