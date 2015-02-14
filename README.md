@@ -1,7 +1,7 @@
 ## Note App 
 
 This app is to be used to keep a running tally of your notes.
-You re-writte your note into a hash format in yaml with keys such as   
+You re-writte your note into a hash format in yaml with keys such as 
 `search_term:` , `glossary:` or `vim_tricks:` and their values.  
 `search_terms: ['virtual private servers', 'fibonacci', 'Angular']`
 
