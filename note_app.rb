@@ -1,37 +1,20 @@
 require 'yaml'
+yml_path = ARGV[0]
 
 class NoteApp
 
-  def initialize
-    read_config
-    add_search_term
-    add_glossary_term
+  def initialize(yml_path)
+    @readme = YAML.load(File.open(yml_path))
+    add_headings
   end
 
-  def read_config
-    @readme = YAML.load(File.open('config/config.yml'))
-    if @readme.inspect != ""
-      puts "Your files were successfully created."
-    else
-      puts "Ooops, something went wrong and your files were not created."
-    end
-  end
-
-  def add_search_term
-    search_terms = @readme['search_term']
-    File.open('output/search_terms.txt', 'a') do |f|
-      f.puts(search_terms)
-      puts "Your new search terms have been added."
-    end
-  end
-
-  def add_glossary_term
-    glossary_terms = @readme['glossary_term']
-    File.open('output/glossary.txt', 'a') do |f|
-      f.puts(glossary_terms)
+  def add_headings
+    @readme.each do |key, value|
+      File.open("output/#{key}.txt", 'a') do |f|
+        f.puts @readme[key]
+        puts "#{key}.txt has been updated."
+      end
     end
   end
 end
-
-note = NoteApp.new
-
+note = NoteApp.new(yml_path)

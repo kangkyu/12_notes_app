@@ -1,0 +1,18 @@
+angular full end development
+make a small app using angular to talk to your json api
+full stack framework for spa development
+seo single task to run dev environment
+mobile app dev - Cordova
+key distinctions: hyper media for all json
+front end should start with as few assumptions of the urls aspossible
+AS6 - like coffee script - has a trans piler atscript
+testing when front end and back end are separate apps. They are on two separte servers.
+angular full end development
+make a small app using angular to talk to your json api
+full stack framework for spa development
+seo single task to run dev environment
+mobile app dev - Cordova
+key distinctions: hyper media for all json
+front end should start with as few assumptions of the urls aspossible
+AS6 - like coffee script - has a trans piler atscript
+testing when front end and back end are separate apps. They are on two separte servers.

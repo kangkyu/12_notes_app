@@ -1,1 +1,37 @@
-
+wip- work in progress
+grep- used in the commandline to search for something in your project
+vim - an awesome text editor
+wip- work in progress
+grep- used in the commandline to search for something in your project
+vim - an awesome text editor
+wip- work in progress
+grep- used in the commandline to search for something in your project
+vim - an awesome text editor
+wip- work in progress
+grep- used in the commandline to search for something in your project
+vim - an awesome text editor
+wip- work in progress
+grep- used in the commandline to search for something in your project
+vim - an awesome text editor
+wip- work in progress
+grep- used in the commandline to search for something in your project
+vim - an awesome text editor
+wip- work in progress
+grep- used in the commandline to search for something in your project
+vim - an awesome text editor
+wip- work in progress
+grep- used in the commandline to search for something in your project
+vim - an awesome text editor
+wip- work in progress
+grep- used in the commandline to search for something in your project
+vim - an awesome text editor
+four
+five
+six
+four
+five
+six
+mapper -logic of resource maps it to one or more data bases
+serializer - represents the resource uses Active Model Serializer
+mapper -logic of resource maps it to one or more data bases
+serializer - represents the resource uses Active Model Serializer
