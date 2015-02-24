@@ -1,36 +1,3 @@
-skylight.io
-vim
-flask python
-skylight.io
-vim
-flask python
-skylight.io
-vim
-flask python
-skylight.io
-vim
-flask python
-skylight.io
-vim
-flask python
-skylight.io
-vim
-flask python
-skylight.io
-vim
-flask python
-skylight.io
-vim
-flask python
-skylight.io
-vim
-flask python
-one
-two
-three
-one
-two
-three
 mappers and serializers
 identified patterns
 mappers and serializers

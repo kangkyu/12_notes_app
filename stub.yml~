@@ -7,4 +7,4 @@ notes: ['angular full end development', 'make a small app using angular to talk 
 
 search_terms: ['mappers and serializers', 'identified patterns']
 
-glossary: ['mapper -logic of resource maps it to one or more data bases', 'serializer - represents the resource uses Active Model Serializer']
+glossary: ['mapper -logic of resource maps it to one or more data bases', 'serializer - represents the resource uses Active Model Serializer']                         

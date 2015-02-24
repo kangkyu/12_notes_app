@@ -1,4 +1,5 @@
 attendees: ['Meridith', 'Judson', 'Mike', 'Patricia', 'Micah', 'Evan', 'Hannah', 'Frances', 'Jim', 'Krista', 'Charles', 'Jen_Diamond']
+  app-dev_group: 
 
 links: ['https://docs.google.com/document/d/1r9aILSogaStB9BT-ZuNvYHs9V9uCoD50_mMjYGVobH4/edit']
 
@@ -7,5 +8,4 @@ notes: ['angular full end development', 'make a small app using angular to talk 
 
 search_terms: ['mappers and serializers', 'identified patterns']
 
-glossary: ['mapper -logic of resource maps it to one or more data bases', 'serializer - represents the resource uses Active Model Serializer']
-~                            
+glossary: ['mapper -logic of resource maps it to one or more data bases', 'serializer - represents the resource uses Active Model Serializer']                         

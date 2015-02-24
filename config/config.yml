@@ -1,2 +1,2 @@
-search_term: []
-glossary: []
+search_term: ["cat', 'dog', 'zebra']
+glossary: ['coffee', 'tess', 'tea']

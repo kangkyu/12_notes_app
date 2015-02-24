@@ -1,0 +1,9 @@
+attendees: ['Meridith', 'Judson', 'Mike', 'Patricia', 'Micah', 'Evan', 'Hannah', 'Frances', 'Jim', 'Krista', 'Charles', 'Jen_Diamond']
+
+links: ['https://docs.google.com/document/d/1r9aILSogaStB9BT-ZuNvYHs9V9uCoD50_mMjYGVobH4/edit']
+
+notes: ['angular full end development', 'make a small app using angular to talk to your json api', 'full stack framework for spa development', 'seo single task to run dev environment', 'mobile app dev - Cordova', 'key distinctions: hyper media for all json', 'front end should start with as few assumptions of the urls aspossible', 'AS6 - like coffee script - has a trans piler atscript', 'testing when front end and back end are separate apps. They are on two separte servers.']
+
+search_terms: ['mappers and serializers', 'identified patterns']
+
+glossary: ['mapper -logic of resource maps it to one or more data bases', 'serializer - represents the resource uses Active Model Serializer']
